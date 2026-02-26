@@ -16,7 +16,7 @@ public class txtbe
 	{
 		using (StreamWriter pontok = new StreamWriter("pontok.txt"))
 		{
-			foreach (int jatekosokSzama in JatekosSzam)
+			foreach (Adatok jatekos in jatekosok)
 			{
 				pontok.WriteLine($"{jatekos.Nev}; {jatekos.Tet}");
             }
