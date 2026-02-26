@@ -10,14 +10,11 @@
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF111710" Offset="0.003"/>
-                <GradientStop Color="#FF52B35D" Offset="1"/>
-            </LinearGradientBrush>
+            <ImageBrush ImageSource="/bg.jpg"/>
         </Grid.Background>
         <Border BorderBrush="Black"
         BorderThickness="1"
-        Margin="26,28,1136,451"
+        Margin="12,112,1150,366"
         Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -91,7 +88,80 @@
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="26,335,1136,145"
+Margin="12,412,1150,67"
+Padding="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF408CE0"/>
+                    <GradientStop Color="#FFB4D8EF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <!-- Sorok -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Label sor -->
+                    <RowDefinition Height="*"/>
+                    <!-- Kártyák -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Gombok -->
+                </Grid.RowDefinitions>
+                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+
+                <!-- ===== 1. Felső rész: Label-ek ===== -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                    <Label x:Name="j7nev" Content="???"
+                        FontWeight="Bold"
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+
+                    <Label Content="0"
+                        FontSize="14"
+                        HorizontalAlignment="Center"/>
+                </StackPanel>
+
+
+                <!-- ===== 2. Középső rész: Kártyák ===== -->
+
+
+                <!-- ===== 3. Alsó rész: Gombok ===== -->
+                <StackPanel Grid.Row="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0">
+
+                    <Button Content="kérek"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF9B9C79"/>
+                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Button Content="állj"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Red"/>
+                                <GradientStop Color="#FF900404" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
+        </Border>
+        <Border BorderBrush="Black"
+BorderThickness="1"
+Margin="236,279,926,201"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -164,85 +234,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="256,370,906,110"
-Padding="10">
-            <Border.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF408CE0"/>
-                    <GradientStop Color="#FFB4D8EF" Offset="1"/>
-                </LinearGradientBrush>
-            </Border.Background>
-
-            <Grid>
-                <!-- Sorok -->
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
-                    <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
-                    <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
-                </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
-                <StackPanel Grid.Row="0" HorizontalAlignment="Center">
-                    <Label x:Name="j4nev" Content="???"
-                        FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
-
-                    <Label Content="0"
-                        FontSize="14"
-                        HorizontalAlignment="Center"/>
-                </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
-                <StackPanel Grid.Row="2"
-            Orientation="Horizontal"
-            HorizontalAlignment="Center"
-            Margin="0,10,0,0">
-
-                    <Button Content="kérek"
-            Width="80"
-            Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
-                        <Button.Background>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
-                            </LinearGradientBrush>
-                        </Button.Background>
-                    </Button>
-
-                    <Button Content="állj"
-            Width="80"
-            Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
-                        <Button.Background>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="Red"/>
-                                <GradientStop Color="#FF900404" Offset="1"/>
-                            </LinearGradientBrush>
-                        </Button.Background>
-                    </Button>
-
-                </StackPanel>
-
-            </Grid>
-        </Border>
-        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="360" Margin="217,-288,217,451" Background="#FF4E342E">
-            <Border.Effect>
-                <DropShadowEffect/>
-            </Border.Effect>
-        </Border>
-        <Border BorderBrush="Black"
-BorderThickness="1"
-Margin="1132,53,30,426"
+Margin="457,374,705,105"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -313,11 +305,326 @@ Padding="10">
 
             </Grid>
         </Border>
-        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="360" Margin="217,-288,217,451" Background="#FF4E342E">
-            <Border.Effect>
-                <DropShadowEffect/>
-            </Border.Effect>
+        <Border BorderBrush="Black"
+BorderThickness="1"
+Margin="717,374,445,105"
+Padding="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF408CE0"/>
+                    <GradientStop Color="#FFB4D8EF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <!-- Sorok -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Label sor -->
+                    <RowDefinition Height="*"/>
+                    <!-- Kártyák -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Gombok -->
+                </Grid.RowDefinitions>
+                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+
+                <!-- ===== 1. Felső rész: Label-ek ===== -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                    <Label x:Name="j4nev" Content="???"
+                        FontWeight="Bold"
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+
+                    <Label Content="0"
+                        FontSize="14"
+                        HorizontalAlignment="Center"/>
+                </StackPanel>
+
+
+                <!-- ===== 2. Középső rész: Kártyák ===== -->
+
+
+                <!-- ===== 3. Alsó rész: Gombok ===== -->
+                <StackPanel Grid.Row="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0">
+
+                    <Button Content="kérek"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF9B9C79"/>
+                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Button Content="állj"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Red"/>
+                                <GradientStop Color="#FF900404" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
         </Border>
+        <Border BorderBrush="Black"
+BorderThickness="1"
+Margin="945,278,217,201"
+Padding="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF408CE0"/>
+                    <GradientStop Color="#FFB4D8EF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <!-- Sorok -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Label sor -->
+                    <RowDefinition Height="*"/>
+                    <!-- Kártyák -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Gombok -->
+                </Grid.RowDefinitions>
+                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+
+                <!-- ===== 1. Felső rész: Label-ek ===== -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                    <Label x:Name="j5nev" Content="???"
+                        FontWeight="Bold"
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+
+                    <Label Content="0"
+                        FontSize="14"
+                        HorizontalAlignment="Center"/>
+                </StackPanel>
+
+
+                <!-- ===== 2. Középső rész: Kártyák ===== -->
+
+
+                <!-- ===== 3. Alsó rész: Gombok ===== -->
+                <StackPanel Grid.Row="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0">
+
+                    <Button Content="kérek"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF9B9C79"/>
+                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Button Content="állj"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Red"/>
+                                <GradientStop Color="#FF900404" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
+        </Border>
+        <Border BorderBrush="Black"
+BorderThickness="1"
+Margin="1152,113,10,366"
+Padding="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF408CE0"/>
+                    <GradientStop Color="#FFB4D8EF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <!-- Sorok -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Label sor -->
+                    <RowDefinition Height="*"/>
+                    <!-- Kártyák -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Gombok -->
+                </Grid.RowDefinitions>
+                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+
+                <!-- ===== 1. Felső rész: Label-ek ===== -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                    <Label x:Name="j6nev" Content="???"
+                        FontWeight="Bold"
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+
+                    <Label Content="0"
+                        FontSize="14"
+                        HorizontalAlignment="Center"/>
+                </StackPanel>
+
+
+                <!-- ===== 2. Középső rész: Kártyák ===== -->
+
+
+                <!-- ===== 3. Alsó rész: Gombok ===== -->
+                <StackPanel Grid.Row="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0">
+
+                    <Button Content="kérek"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF9B9C79"/>
+                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Button Content="állj"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Red"/>
+                                <GradientStop Color="#FF900404" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
+        </Border>
+        <Border BorderBrush="Black"
+BorderThickness="1"
+Margin="1152,412,10,67"
+Padding="10">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF408CE0"/>
+                    <GradientStop Color="#FFB4D8EF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <!-- Sorok -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Label sor -->
+                    <RowDefinition Height="*"/>
+                    <!-- Kártyák -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Gombok -->
+                </Grid.RowDefinitions>
+                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+
+                <!-- ===== 1. Felső rész: Label-ek ===== -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                    <Label x:Name="j8nev" Content="???"
+                        FontWeight="Bold"
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+
+                    <Label Content="0"
+                        FontSize="14"
+                        HorizontalAlignment="Center"/>
+                </StackPanel>
+
+
+                <!-- ===== 2. Középső rész: Kártyák ===== -->
+
+
+                <!-- ===== 3. Alsó rész: Gombok ===== -->
+                <StackPanel Grid.Row="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0">
+
+                    <Button Content="kérek"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF9B9C79"/>
+                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Button Content="állj"
+            Width="80"
+            Height="35"
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Red"/>
+                                <GradientStop Color="#FF900404" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
+        </Border>
+        <Ellipse Width="910" Height="538"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Top"
+         Margin="0,-234,0,0" RenderTransformOrigin="0.501,0.251">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/IMG/table.jpg"
+                    Stretch="UniformToFill" />
+            </Ellipse.Fill>
+            <Ellipse.Effect>
+                <DropShadowEffect Color="#80000000"
+                      BlurRadius="25"
+                      ShadowDepth="15"
+                      Direction="270"
+                      Opacity="0.8"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Image x:Name="ok1" HorizontalAlignment="Left" Height="172" Margin="514,80,0,0" VerticalAlignment="Top" Width="134"/>
+        <Image x:Name="ok2" HorizontalAlignment="Left" Height="172" Margin="685,80,0,0" VerticalAlignment="Top" Width="134"/>
+        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="12,25,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="72" Foreground="White" FontFamily="SimSun-ExtB">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label Content="Dealer" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="SimSun-ExtB">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
 
     </Grid>
 </Window>

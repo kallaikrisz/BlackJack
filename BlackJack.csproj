@@ -9,13 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bg.jpg" />
     <None Remove="IMG\kezdokep.jpg" />
+    <None Remove="table.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="bg.jpg" />
     <Resource Include="IMG\kezdokep.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="table.jpg" />
   </ItemGroup>
 
 </Project>
