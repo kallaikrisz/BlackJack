@@ -13,6 +13,8 @@ mi kell:(   --    az a kész)
 
 kartya tarolas
 
+képek
+
 indul 10 000chip  alap tét 100
  
 random
@@ -29,6 +31,7 @@ mennit bukott
 
 mennyit nyert
 
+help ?
 
 
 
