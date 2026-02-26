@@ -1,12 +1,41 @@
 ﻿<Window x:Class="BlackJack.Tetek"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BlackJack"
-        mc:Ignorable="d"
-        Title="Tetek" Height="450" Width="800">
-    <Grid>
-        
+        Title="Tétek megadása" Height="450" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="#2C3E50">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Játékosok tétjei (alap tét:10000)" 
+                   FontSize="18" 
+                   FontWeight="Bold"
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,15"
+                   Grid.Row="0"/>
+
+        <ScrollViewer Grid.Row="1" 
+                      VerticalScrollBarVisibility="Auto"
+                      Margin="0,0,0,15">
+            <StackPanel x:Name="TetStackPanel" />
+        </ScrollViewer>
+
+        <Button Grid.Row="2" 
+                Content="Tovább" 
+                Width="120" 
+                Height="40"
+                HorizontalAlignment="Center"
+                Background="#27AE60" 
+                Foreground="White" 
+                FontWeight="Bold" 
+                FontSize="14"
+                BorderThickness="0"
+                Click="Tovabb_Click"/>
     </Grid>
 </Window>
