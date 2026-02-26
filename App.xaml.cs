@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace BlackJack
 {
@@ -9,6 +10,6 @@ namespace BlackJack
     /// </summary>
     public partial class App : Application
     {
+        public List<string> jatekosNevek = new List<string>();
     }
-
 }
