@@ -1,0 +1,35 @@
+♥ = H = kör, hearts
+♠ = S = pikk, spades
+♦ = D = káró, diamonds
+♧ = C = treff, clubs
+
+J = Bubi, Jack
+Q = Dáma, Queen
+K = Király, King
+A = Ász, Ace
+
+
+mi kell:(   --    az a kész)
+
+kartya tarolas
+
+indul 10 000chip  alap tét 100
+ 
+random
+
+kártyák össz értéke
+
+tét
+
+indul 10 000chip
+
+alap tét 100 
+
+mennit bukott 
+
+mennyit nyert
+
+
+
+
+
