@@ -10,6 +10,6 @@ namespace BlackJack
     /// </summary>
     public partial class App : Application
     {
-        public List<string> jatekosNevek = new List<string>();
+        public List<Adatok> jatekosNevek = new List<Adatok>();
     }
 }
