@@ -21,7 +21,7 @@ random
 
 kártyák össz értéke
 
-tét
+tét az új játékban
 
 indul 10 000chip
 
