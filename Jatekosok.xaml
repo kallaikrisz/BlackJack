@@ -1,12 +1,28 @@
-﻿<Window x:Class="BlackJack.Jatekosok"
+﻿<Window x:Class="BlackJack.JatekosSzam"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BlackJack"
-        mc:Ignorable="d"
-        Title="Jatekosok" Height="450" Width="800">
+        Title="Játékosok megadása"
+        Height="500"
+        Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="/IMG/kezdokep.jpg"/>
+    </Window.Background>
+
     <Grid>
+        <Rectangle Fill="#88000000"/>
+        <StackPanel Margin="30">
+            <TextBlock Text="Üdvözöllek a BlackJack játékban!" FontSize="22" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,20" HorizontalAlignment="Center" TextAlignment="Center" Foreground="White"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                <Label Content="Kérlek add meg a játékosok számát!" FontWeight="Bold" Foreground="White" />
+
+                <TextBox x:Name="txtJatekosSzam" Width="50" Margin="10,0,0,0" TextChanged="txtJatekosSzam_TextChanged"/>
+            </StackPanel>
+
+            <StackPanel x:Name="NevStackPanel" Margin="10,0,0,0"/>
+            <Button Content="Tovább" Width="100" Height="30" Margin="0,20,0,0" Click="Tovabb_Click"/>
+        </StackPanel>
         
     </Grid>
 </Window>

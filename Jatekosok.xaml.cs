@@ -1,25 +1,92 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace BlackJack
 {
     /// <summary>
-    /// Interaction logic for Jatekosok.xaml
+    /// Interaction logic for JatekosSzam.xaml
     /// </summary>
-    public partial class Jatekosok : Window
+    public partial class JatekosSzam : Window
     {
-        public Jatekosok()
+        public JatekosSzam()
         {
             InitializeComponent();
+            txtJatekosSzam.PreviewTextInput += TxtJatekosSzam_PreviewTextInput;
+        }
+        private void TxtJatekosSzam_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = !int.TryParse(e.Text, out _);
+        }
+
+        private void txtJatekosSzam_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            NevStackPanel.Children.Clear();
+
+            if (int.TryParse(txtJatekosSzam.Text, out int jatekosokSzama))
+            {
+                if (jatekosokSzama <= 0 || jatekosokSzama > 8)
+                    return;
+
+                for (int i = 1; i <= jatekosokSzama; i++)
+                {
+                    StackPanel sor = new StackPanel
+                    {
+                        Orientation = Orientation.Horizontal,
+                        Margin = new Thickness(0, 5, 0, 5)
+                    };
+
+                    TextBlock label = new TextBlock
+                    {
+                        Text = $"{i}. játékos neve:",
+                        Width = 150,
+                        VerticalAlignment = VerticalAlignment.Center,
+                        Foreground = System.Windows.Media.Brushes.White  
+                    };
+
+                    TextBox textBox = new TextBox
+                    {
+                        Width = 150,
+                        Foreground = System.Windows.Media.Brushes.White,  
+                        Background = System.Windows.Media.Brushes.Black   
+                    };
+
+                    sor.Children.Add(label);
+                    sor.Children.Add(textBox);
+
+                    NevStackPanel.Children.Add(sor);
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Kérlek számot adj meg!");
+            }
+        }
+        private void Tovabb_Click(object sender, RoutedEventArgs e)
+        {
+
+            foreach (StackPanel sor in NevStackPanel.Children)
+            {
+                foreach (var elem in sor.Children)
+                {
+                    if (elem is TextBox tb)
+                    {
+                        if (!string.IsNullOrWhiteSpace(tb.Text))
+                        {
+                            ((App)Application.Current).jatekosNevek.Add(tb.Text);
+                        }
+                    }
+                }
+            }
+
+
+            Tetek ujAblak = new Tetek();
+            ujAblak.Show();
+
+            this.Close();
         }
     }
 }

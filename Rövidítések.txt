@@ -13,13 +13,15 @@ mi kell:(   --    az a kész)
 
 kartya tarolas
 
+képek
+
 indul 10 000chip  alap tét 100
  
 random
 
 kártyák össz értéke
 
-tét
+tét az új játékban
 
 indul 10 000chip
 
@@ -28,6 +30,13 @@ alap tét 100
 mennit bukott 
 
 mennyit nyert
+
+help ?
+
+osztás
+
+húzás
+
 
 
 
