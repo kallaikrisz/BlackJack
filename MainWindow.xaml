@@ -24,35 +24,21 @@
             </Border.Background>
 
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j1k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j1k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
-
                     <Label x:Name="j1nev" Content="???"
                    FontWeight="Bold"
                    Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
-
                     <Label x:Name="j1tet" Content="0"
                    FontSize="14"
                    HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
                     Orientation="Horizontal"
                     HorizontalAlignment="Center"
@@ -81,15 +67,14 @@
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-
                 </StackPanel>
-
             </Grid>
         </Border>
-        <Border BorderBrush="Black"
-BorderThickness="1"
-Margin="12,412,1150,52"
-Padding="10">
+        <Border 
+            BorderBrush="Black"
+            BorderThickness="1"
+            Margin="12,412,1150,52"
+            Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF408CE0"/>
@@ -98,43 +83,29 @@ Padding="10">
             </Border.Background>
 
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j7k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j7k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j7nev" Content="???"
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
-
                     <Label x:Name="j7tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
-            Orientation="Horizontal"
-            HorizontalAlignment="Center"
-            Margin="0,10,0,0">
-
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,10,0,0">
                     <Button x:Name="j7ker" Content="kérek"
-            Width="80"
-            Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        Width="80"
+                        Height="35"
+                        Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="#FF9B9C79"/>
@@ -142,11 +113,10 @@ Padding="10">
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-
                     <Button x:Name="j7allj" Content="állj"
-            Width="80"
-            Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        Width="80"
+                        Height="35"
+                        Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -154,56 +124,39 @@ Padding="10">
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-
                 </StackPanel>
-
             </Grid>
         </Border>
-        <Border BorderBrush="Black"
-BorderThickness="1"
-Margin="236,279,926,190"
-Padding="10">
+            <Border BorderBrush="Black"
+            BorderThickness="1"
+            Margin="236,279,926,190"
+            Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF408CE0"/>
                     <GradientStop Color="#FFB4D8EF" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
-
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j2k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j2k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j2nev" Content="???"
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
-
                     <Label x:Name="j2tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
-
                     <Button x:Name="j2ker" Content="kérek"
             Width="80"
             Height="35"
@@ -215,7 +168,6 @@ Padding="10">
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-
                     <Button x:Name="j2allj" Content="állj"
             Width="80"
             Height="35"
@@ -227,9 +179,7 @@ Padding="10">
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
-
                 </StackPanel>
-
             </Grid>
         </Border>
         <Border BorderBrush="Black"
@@ -242,36 +192,22 @@ Padding="10">
                     <GradientStop Color="#FFB4D8EF" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
-
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j3k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j3k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j3nev" Content="???"
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
-
                     <Label x:Name="j3tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
@@ -317,19 +253,13 @@ Padding="10">
             </Border.Background>
 
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j4k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j4k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j4nev" Content="???"
                         FontWeight="Bold"
@@ -339,12 +269,6 @@ Padding="10">
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
@@ -390,19 +314,13 @@ Padding="10">
             </Border.Background>
 
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j5k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j5k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j5nev" Content="???"
                         FontWeight="Bold"
@@ -412,12 +330,6 @@ Padding="10">
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
@@ -463,19 +375,13 @@ Padding="10">
             </Border.Background>
 
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j6k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j6k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j6nev" Content="???"
                         FontWeight="Bold"
@@ -485,12 +391,6 @@ Padding="10">
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
@@ -536,19 +436,13 @@ Padding="10">
             </Border.Background>
 
             <Grid>
-                <!-- Sorok -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Label sor -->
                     <RowDefinition Height="*"/>
-                    <!-- Kártyák -->
                     <RowDefinition Height="Auto"/>
-                    <!-- Gombok -->
                 </Grid.RowDefinitions>
                 <Image x:Name="j8k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
                 <Image x:Name="j8k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
-
-                <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j8nev" Content="???"
                         FontWeight="Bold"
@@ -558,12 +452,6 @@ Padding="10">
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
-
-
-                <!-- ===== 2. Középső rész: Kártyák ===== -->
-
-
-                <!-- ===== 3. Alsó rész: Gombok ===== -->
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
