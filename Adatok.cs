@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using BlackJack;
+using System.Windows;
 
 
 public class Adatok
@@ -14,12 +16,13 @@ public class txtbe
 {
     public void pontmentes(List<Adatok> jatekosok)
 	{
-		using (StreamWriter pontok = new StreamWriter("pontok.txt"))
-		{
-			foreach (Adatok jatekos in jatekosok)
-			{
-				pontok.WriteLine($"{jatekos.Nev}; {jatekos.Tet}");
+        int jatekosokszama = ((App)Application.Current).jatekosSzamok;
+        using (StreamWriter pontok = new StreamWriter("pontok.txt"))
+        {
+            foreach (Adatok jatekos in jatekosok.Take(jatekosokszama))
+            {
+                pontok.WriteLine($"{jatekos.Nev};{jatekos.Tet}");
             }
         }
-	}
+    }
 }
