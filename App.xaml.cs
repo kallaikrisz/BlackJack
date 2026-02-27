@@ -10,9 +10,8 @@ namespace BlackJack
     /// </summary>
     public partial class App : Application
     {
-        // Holds player data (name, balance, bet)
-        public List<Adatok> jatekosNevek = new List<Adatok>();
-        // Holds bets as integers for easy numeric operations
-        public List<int> jatekosTetek = new List<int>();
+        public List<Adatok> jatekosAdatok = new List<Adatok>();
+        public int OsztoPont = 0;
+        public int AktualJatekos = 0;
     }
 }
