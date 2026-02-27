@@ -14,7 +14,7 @@
         </Grid.Background>
         <Border BorderBrush="Black"
         BorderThickness="1"
-        Margin="12,112,1150,366"
+        Margin="12,112,1150,352"
         Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -33,8 +33,8 @@
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j1k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j1k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -43,7 +43,7 @@
                    FontWeight="Bold"
                    Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j1tet" Content="0"
                    FontSize="14"
                    HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -58,7 +58,7 @@
                     HorizontalAlignment="Center"
                     Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j1ker" Content="kérek"
                     Width="80"
                     Height="35"
                     Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -70,7 +70,7 @@
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j1allj" Content="állj"
                     Width="80"
                     Height="35"
                     Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -88,7 +88,7 @@
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="12,412,1150,67"
+Margin="12,412,1150,52"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -107,8 +107,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j7k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j7k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -116,7 +116,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j7tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -131,7 +131,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j7ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -143,7 +143,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j7allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -161,7 +161,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="236,279,926,201"
+Margin="236,279,926,190"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -180,8 +180,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j2k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j2k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -189,7 +189,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j2tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -204,7 +204,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j2ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -216,7 +216,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j2allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -234,7 +234,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="457,374,705,105"
+Margin="457,374,705,91"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -253,8 +253,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j3k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j3k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -262,7 +262,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j3tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -277,7 +277,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j3ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -289,7 +289,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j3allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -307,7 +307,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="717,374,445,105"
+Margin="717,374,445,91"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -326,8 +326,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j4k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j4k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -335,7 +335,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j4tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -350,7 +350,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j4ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -362,7 +362,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j4allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -380,7 +380,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="945,278,217,201"
+Margin="945,278,217,190"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -399,8 +399,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j5k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j5k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -408,7 +408,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j5tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -423,7 +423,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j5ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -435,7 +435,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j5allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -453,7 +453,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="1152,113,10,366"
+Margin="1152,113,10,352"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -472,8 +472,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j6k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j6k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -481,7 +481,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j6tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -496,7 +496,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j6ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -508,7 +508,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j6allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -526,7 +526,7 @@ Padding="10">
         </Border>
         <Border BorderBrush="Black"
 BorderThickness="1"
-Margin="1152,412,10,67"
+Margin="1152,412,10,52"
 Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -545,8 +545,8 @@ Padding="10">
                     <RowDefinition Height="Auto"/>
                     <!-- Gombok -->
                 </Grid.RowDefinitions>
-                <Image Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j8k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j8k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
 
                 <!-- ===== 1. Felső rész: Label-ek ===== -->
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
@@ -554,7 +554,7 @@ Padding="10">
                         FontWeight="Bold"
                         Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
 
-                    <Label Content="0"
+                    <Label x:Name="j8tet" Content="0"
                         FontSize="14"
                         HorizontalAlignment="Center"/>
                 </StackPanel>
@@ -569,7 +569,7 @@ Padding="10">
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
 
-                    <Button Content="kérek"
+                    <Button x:Name="j8ker" Content="kérek"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
@@ -581,7 +581,7 @@ Padding="10">
                         </Button.Background>
                     </Button>
 
-                    <Button Content="állj"
+                    <Button x:Name="j8allj" Content="állj"
             Width="80"
             Height="35"
             Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
@@ -615,12 +615,12 @@ Padding="10">
         </Ellipse>
         <Image x:Name="ok1" HorizontalAlignment="Left" Height="172" Margin="514,80,0,0" VerticalAlignment="Top" Width="134"/>
         <Image x:Name="ok2" HorizontalAlignment="Left" Height="172" Margin="685,80,0,0" VerticalAlignment="Top" Width="134"/>
-        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="12,25,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="72" Foreground="White" FontFamily="SimSun-ExtB">
+        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="72" Foreground="White" FontFamily="SimSun-ExtB">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Label Content="Dealer" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="SimSun-ExtB">
+        <Label Content="Dealer" HorizontalAlignment="Center" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="SimSun-ExtB">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
