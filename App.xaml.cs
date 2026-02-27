@@ -10,10 +10,8 @@ namespace BlackJack
     /// </summary>
     public partial class App : Application
     {
-        public List<Adatok> jatekosNevek = new List<Adatok>();
-
-        public List<int> jatekosTetek = new List<int>();
-
-        public int jatekosSzamok = 0;
+        public List<Adatok> jatekosAdatok = new List<Adatok>();
+        public int OsztoPont = 0;
+        public int AktualJatekos = 0;
     }
 }

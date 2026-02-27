@@ -84,7 +84,6 @@ namespace BlackJack
                         }
                     }
                 }
-                ((App)Application.Current).jatekosSzamok = ((App)Application.Current).jatekosNevek.Count;
             }
 
 
