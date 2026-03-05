@@ -19,7 +19,34 @@ namespace BlackJack
         public MainWindow()
         {
             InitializeComponent();
+            
+            var jatekosNevek = ((App)Application.Current).jatekosAdatok;
+
+            for (int i = 0; i < jatekosNevek.Count; i++)
+            {
+                switch (i)
+                {
+                    case 0: j1nev.Content = jatekosNevek[i].Nev; break;
+                    case 1: j2nev.Content = jatekosNevek[i].Nev; break;
+                    case 2: j3nev.Content = jatekosNevek[i].Nev; break;
+                    case 3: j4nev.Content = jatekosNevek[i].Nev; break;
+                    case 4: j5nev.Content = jatekosNevek[i].Nev; break;
+                    case 5: j6nev.Content = jatekosNevek[i].Nev; break;
+                    case 6: j7nev.Content = jatekosNevek[i].Nev; break;
+                    case 7: j8nev.Content = jatekosNevek[i].Nev; break;
+                }
+            }
+            //j1nev.Content = jatekosNevek[0].Nev;
+            //j2nev.Content = jatekosNevek[1].Nev;
+            //j3nev.Content = jatekosNevek[2].Nev;
+            //j4nev.Content = jatekosNevek[3].Nev;
+            //j5nev.Content = jatekosNevek[4].Nev;
+            //j6nev.Content = jatekosNevek[5].Nev;
+            //j7nev.Content = jatekosNevek[6].Nev;
+            //j8nev.Content = jatekosNevek[7].Nev;
+
         }
+        
         string[] pakli = new string[]
         {
             "1;H2;2", "2;H3;3", "3;H4;4", "4;H5;5", "5;H6;6", "6;H7;7",
@@ -31,5 +58,8 @@ namespace BlackJack
             "40;S2;2", "41;S3;3", "42;S4;4", "43;S5;5", "44;S6;6", "45;S7;7",
             "46;S8;8", "47;S9;9", "48;S10;10", "49;SJ;10", "50;SQ;10", "51;SK;10", "52;SA;11"
         };
+        
+
+
     }
 }
