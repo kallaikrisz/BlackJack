@@ -80,7 +80,7 @@ namespace BlackJack
                             aktualis.Nev = tb.Text;
                             aktualis.Egyenleg = 10000;
                             aktualis.Tet = 0;
-                            ((App)Application.Current).jatekosNevek.Add(aktualis);
+                            ((App)Application.Current).jatekosAdatok.Add(aktualis);
                         }
                     }
                 }

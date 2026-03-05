@@ -19,7 +19,7 @@ namespace BlackJack
 
         private void JatekosTetekLetrehozasa()
         {
-            var jatekosNevek = ((App)Application.Current).jatekosNevek;
+            var jatekosNevek = ((App)Application.Current).jatekosAdatok;
 
             for (int i = 0; i < jatekosNevek.Count; i++)
             {
@@ -91,12 +91,8 @@ namespace BlackJack
         {
             if (!TetekEllenorzese()) return;
 
-            var app = (App)Application.Current;
-            app.jatekosTetek.Clear();
-            app.jatekosTetek.AddRange(tetTextBoxek.Select(tb => int.Parse(tb.Text)));
+            //!javítani
 
-            int osszeg = app.jatekosTetek.Sum();
-            MessageBox.Show($"Tétek elmentve! Összesen: {osszeg}", "Siker");
 
             // Open the application's main window
             MainWindow mainWindow = new MainWindow();
