@@ -91,10 +91,13 @@ namespace BlackJack
         {
             if (!TetekEllenorzese()) return;
 
-            //!javítani
+            var app = (App)Application.Current;
 
+            for (int i = 0; i < app.jatekosAdatok.Count; i++)
+            {
+                app.jatekosAdatok[i].Tet = int.Parse(tetTextBoxek[i].Text);
+            }
 
-            // Open the application's main window
             MainWindow mainWindow = new MainWindow();
             Application.Current.MainWindow = mainWindow;
             mainWindow.Show();
