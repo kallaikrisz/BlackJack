@@ -13,9 +13,9 @@
             <ImageBrush ImageSource="/bg.jpg"/>
         </Grid.Background>
         <Border BorderBrush="Black"
-        BorderThickness="1"
-        Margin="12,112,1150,352"
-        Padding="10">
+            BorderThickness="1"
+            Margin="12,112,1150,352"
+            Padding="10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF408CE0"/>
@@ -34,10 +34,10 @@
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j1nev" Content="???"
                    FontWeight="Bold"
-                   Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                   Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
                     <Label x:Name="j1tet" Content="0"
                    FontSize="14"
-                   HorizontalAlignment="Center"/>
+                   HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
                     Orientation="Horizontal"
@@ -45,21 +45,21 @@
                     Margin="0,10,0,0">
 
                     <Button x:Name="j1ker" Content="kérek"
-                    Width="80"
+                    Width="60"
                     Height="35"
-                    Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                    Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
 
                     <Button x:Name="j1allj" Content="állj"
-                    Width="80"
+                    Width="60"
                     Height="35"
-                    Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                    Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="16" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -93,30 +93,30 @@
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j7nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
                     <Label x:Name="j7tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
                     Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     Margin="0,10,0,0">
                     <Button x:Name="j7ker" Content="kérek"
-                        Width="80"
+                        Width="60"
                         Height="35"
-                        Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+                        Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
                     <Button x:Name="j7allj" Content="állj"
-                        Width="80"
+                        Width="60"
                         Height="35"
-                        Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+                        Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -148,30 +148,30 @@
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j2nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
                     <Label x:Name="j2tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
             HorizontalAlignment="Center"
             Margin="0,10,0,0">
                     <Button x:Name="j2ker" Content="kérek"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
                     <Button x:Name="j2allj" Content="állj"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -203,10 +203,10 @@ Padding="10">
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j3nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
                     <Label x:Name="j3tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
@@ -214,21 +214,21 @@ Padding="10">
             Margin="0,10,0,0">
 
                     <Button x:Name="j3ker" Content="kérek"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
 
                     <Button x:Name="j3allj" Content="állj"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -263,11 +263,11 @@ Padding="10">
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j4nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
 
                     <Label x:Name="j4tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
@@ -275,21 +275,21 @@ Padding="10">
             Margin="0,10,0,0">
 
                     <Button x:Name="j4ker" Content="kérek"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
 
                     <Button x:Name="j4allj" Content="állj"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -324,11 +324,11 @@ Padding="10">
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j5nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
 
                     <Label x:Name="j5tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
@@ -336,21 +336,21 @@ Padding="10">
             Margin="0,10,0,0">
 
                     <Button x:Name="j5ker" Content="kérek"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
 
                     <Button x:Name="j5allj" Content="állj"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -385,11 +385,11 @@ Padding="10">
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j6nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
 
                     <Label x:Name="j6tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
@@ -397,21 +397,21 @@ Padding="10">
             Margin="0,10,0,0">
 
                     <Button x:Name="j6ker" Content="kérek"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
 
                     <Button x:Name="j6allj" Content="állj"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -446,11 +446,11 @@ Padding="10">
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j8nev" Content="???"
                         FontWeight="Bold"
-                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18"/>
+                        Height="46" HorizontalContentAlignment="Center" Width="141" FontSize="18" FontFamily="MingLiU_HKSCS-ExtB"/>
 
                     <Label x:Name="j8tet" Content="0"
                         FontSize="14"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" FontFamily="MingLiU_HKSCS-ExtB"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2"
             Orientation="Horizontal"
@@ -458,21 +458,21 @@ Padding="10">
             Margin="0,10,0,0">
 
                     <Button x:Name="j8ker" Content="kérek"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="22">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF9B9C79"/>
-                                <GradientStop Color="#FF11FF35" Offset="1"/>
+                                <GradientStop Color="#FF279A38"/>
+                                <GradientStop Color="#FF1B5E20" Offset="1"/>
                             </LinearGradientBrush>
                         </Button.Background>
                     </Button>
 
                     <Button x:Name="j8allj" Content="állj"
-            Width="80"
+            Width="60"
             Height="35"
-            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="24" Foreground="White" FontWeight="Bold">
+            Margin="5" FontFamily="MingLiU_HKSCS-ExtB" FontSize="18" Foreground="White" FontWeight="Bold">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Red"/>
@@ -490,7 +490,7 @@ Padding="10">
          VerticalAlignment="Top"
          Margin="0,-234,0,0" RenderTransformOrigin="0.501,0.251">
             <Ellipse.Fill>
-                <ImageBrush ImageSource="/IMG/table.jpg"
+                <ImageBrush ImageSource="table.jpg"
                     Stretch="UniformToFill" />
             </Ellipse.Fill>
             <Ellipse.Effect>
@@ -503,12 +503,12 @@ Padding="10">
         </Ellipse>
         <Image x:Name="ok1" HorizontalAlignment="Left" Height="172" Margin="514,80,0,0" VerticalAlignment="Top" Width="134"/>
         <Image x:Name="ok2" HorizontalAlignment="Left" Height="172" Margin="685,80,0,0" VerticalAlignment="Top" Width="134"/>
-        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="72" Foreground="White" FontFamily="SimSun-ExtB">
+        <Label Content="Black Jack" HorizontalAlignment="Left" Margin="12,0,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="MingLiU_HKSCS-ExtB">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Label Content="Dealer" HorizontalAlignment="Center" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="SimSun-ExtB">
+        <Label Content="Dealer" HorizontalAlignment="Center" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="MingLiU_HKSCS-ExtB" FontWeight="Bold">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
