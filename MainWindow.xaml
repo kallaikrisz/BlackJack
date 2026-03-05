@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlackJack"
         mc:Ignorable="d"
-        Title="blackjack" Height="756" Width="1344"
+        Title="én vagyok a főnök öcskös" Height="756" Width="1344"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
     <Grid>
@@ -127,7 +127,7 @@
                 </StackPanel>
             </Grid>
         </Border>
-            <Border BorderBrush="Black"
+        <Border BorderBrush="Black"
             BorderThickness="1"
             Margin="236,279,926,190"
             Padding="10">
@@ -503,7 +503,13 @@ Padding="10">
         </Ellipse>
         <Image x:Name="ok1" HorizontalAlignment="Left" Height="172" Margin="514,80,0,0" VerticalAlignment="Top" Width="134"/>
         <Image x:Name="ok2" HorizontalAlignment="Left" Height="172" Margin="685,80,0,0" VerticalAlignment="Top" Width="134"/>
-        <Label Content="Black Jack" HorizontalAlignment="Left" Margin="12,0,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="MingLiU_HKSCS-ExtB">
+        <Label Content="Black Jack" HorizontalAlignment="Left" Margin="12,12,0,0" VerticalAlignment="Top" IsEnabled="False" FontSize="48" Foreground="White" FontFamily="MingLiU_HKSCS-ExtB" FontWeight="Bold">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF371C1C" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
