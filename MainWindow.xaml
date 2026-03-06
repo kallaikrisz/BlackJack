@@ -29,8 +29,8 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="j1k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image x:Name="j1k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j1k1" Margin="1,4,85,4" Grid.Row="1"/>
+                <Image x:Name="j1k2" Margin="85,4,1,4" Grid.Row="1" />
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j1nev" Content="???"
                    FontWeight="Bold"
@@ -88,8 +88,8 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="j7k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image x:Name="j7k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j7k1" Margin="1,4,85,4" Grid.Row="1" />
+                <Image x:Name="j7k2" Margin="85,4,1,4" Grid.Row="1" />
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j7nev" Content="???"
                         FontWeight="Bold"
@@ -143,8 +143,8 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="j2k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image x:Name="j2k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j2k1" Margin="1,4,85,4" Grid.Row="1" />
+                <Image x:Name="j2k2" Margin="85,4,1,4" Grid.Row="1" />
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j2nev" Content="???"
                         FontWeight="Bold"
@@ -198,8 +198,8 @@ Padding="10">
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="j3k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image x:Name="j3k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j3k1" Margin="1,4,85,4" Grid.Row="1" />
+                <Image x:Name="j3k2" Margin="85,4,1,4" Grid.Row="1" />
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j3nev" Content="???"
                         FontWeight="Bold"
@@ -258,8 +258,8 @@ Padding="10">
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="j4k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image x:Name="j4k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j4k1" Margin="1,4,85,4" Grid.Row="1" />
+                <Image x:Name="j4k2" Margin="85,4,1,4" Grid.Row="1" />
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j4nev" Content="???"
                         FontWeight="Bold"
@@ -319,8 +319,8 @@ Padding="10">
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Image x:Name="j5k1" Margin="1,4,85,4" Height="120" Width="75" Grid.Row="1" />
-                <Image x:Name="j5k2" Margin="85,4,1,4" Height="120" Width="75" Grid.Row="1" />
+                <Image x:Name="j5k1" Margin="1,4,85,4"  Grid.Row="1" />
+                <Image x:Name="j5k2" Margin="85,4,1,4"  Grid.Row="1" />
                 <StackPanel Grid.Row="0" HorizontalAlignment="Center">
                     <Label x:Name="j5nev" Content="???"
                         FontWeight="Bold"

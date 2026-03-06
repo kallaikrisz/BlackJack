@@ -10,12 +10,14 @@
 
   <ItemGroup>
     <None Remove="bg.jpg" />
+    <None Remove="C2.png" />
     <None Remove="IMG\kezdokep.jpg" />
     <None Remove="table.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="bg.jpg" />
+    <Resource Include="C2.png" />
     <Resource Include="IMG\kezdokep.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
