@@ -36,14 +36,6 @@ namespace BlackJack
                     case 7: j8nev.Content = jatekosNevek[i].Nev; break;
                 }
             }
-            //j1nev.Content = jatekosNevek[0].Nev;
-            //j2nev.Content = jatekosNevek[1].Nev;
-            //j3nev.Content = jatekosNevek[2].Nev;
-            //j4nev.Content = jatekosNevek[3].Nev;
-            //j5nev.Content = jatekosNevek[4].Nev;
-            //j6nev.Content = jatekosNevek[5].Nev;
-            //j7nev.Content = jatekosNevek[6].Nev;
-            //j8nev.Content = jatekosNevek[7].Nev;
 
         }
         
