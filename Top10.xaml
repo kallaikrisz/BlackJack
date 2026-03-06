@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlackJack"
         mc:Ignorable="d"
-        Title="Top10" Height="450" Width="800">
+        Title="Top10" Height="450" Width="400">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <StackPanel.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                </Style>
+            </StackPanel.Resources>
+            <Label Content="Helyezés:"/>
+            <Label Content="1."/>
+            <Label Content="2."/>
+            <Label Content="3."/>
+            <Label Content="4."/>
+            <Label Content="5."/>
+            <Label Content="6."/>
+            <Label Content="7."/>
+            <Label Content="8."/>
+            <Label Content="9."/>
+            <Label Content="10."/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <StackPanel.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                </Style>
+            </StackPanel.Resources>
+            <Label Content="Játékos neve:"/>
+            <Label x:Name="j1"/>
+            <Label x:Name="j2"/>
+            <Label x:Name="j3"/>
+            <Label x:Name="j4"/>
+            <Label x:Name="j5"/>
+            <Label x:Name="j6"/>
+            <Label x:Name="j7"/>
+            <Label x:Name="j8"/>
+            <Label x:Name="j9"/>
+            <Label x:Name="j10"/>
+        </StackPanel>
     </Grid>
 </Window>
