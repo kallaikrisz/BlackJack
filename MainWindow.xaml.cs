@@ -16,7 +16,7 @@ namespace BlackJack
     /// </summary>
     public partial class MainWindow : Window
     {
-        // A pakli IDE KERÜL – az osztály SZINTJÉRE, nem a konstruktorba!
+
         string[] pakli = new string[]
         {
             "1;H2;2", "2;H3;3", "3;H4;4", "4;H5;5", "5;H6;6", "6;H7;7",
