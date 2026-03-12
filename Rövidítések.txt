@@ -11,11 +11,11 @@ A = Ász, Ace
 
 mi kell:(   --    az a kész)
 
-kartya tarolas
+kartya tarolas   --
 
-képek
+képek   --
 
-indul 10 000chip  alap tét 100
+indul 10 000chip  alap tét 100   --
  
 random
 
@@ -23,9 +23,9 @@ kártyák össz értéke
 
 tét az új játékban
 
-indul 10 000chip
+indul 10 000chip   --
 
-alap tét 100 
+alap tét 100    --
 
 mennit bukott 
 
@@ -36,6 +36,8 @@ help ?
 osztás
 
 húzás
+
+kor utáni ablak uj tétek , uj game , stop
 
 
 

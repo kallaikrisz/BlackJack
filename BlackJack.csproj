@@ -10,15 +10,31 @@
 
   <ItemGroup>
     <None Remove="bg.jpg" />
+    <None Remove="C10.png" />
+    <None Remove="C2.png" />
+    <None Remove="C3.png" />
+    <None Remove="CA.png" />
+    <None Remove="CQ.png" />
+    <None Remove="D5.png" />
+    <None Remove="DA.png" />
     <None Remove="IMG\kezdokep.jpg" />
+    <None Remove="S10.png" />
     <None Remove="table.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="bg.jpg" />
+    <Resource Include="C10.png" />
+    <Resource Include="C2.png" />
+    <Resource Include="C3.png" />
+    <Resource Include="CA.png" />
+    <Resource Include="CQ.png" />
+    <Resource Include="D5.png" />
+    <Resource Include="DA.png" />
     <Resource Include="IMG\kezdokep.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="S10.png" />
     <Resource Include="table.jpg" />
   </ItemGroup>
 
