@@ -36,8 +36,27 @@ namespace BlackJack
                     case 7: j8nev.Content = jatekosNevek[i].Nev; break;
                 }
             }
+            int AtvettP = 0;
+            Label[] nevek = { j1nev, j2nev, j3nev, j4nev, j5nev, j6nev, j7nev, j8nev };
+
+            for (int i = 0; i < 8; i++)
+            {
+                if (i < jatekosNevek.Count && jatekosNevek[i].Nev != "")
+                {
+                    nevek[i].Content = jatekosNevek[i].Nev;
+                    AtvettP++;
+                }
+            }
+            for (int k = 0; k < AtvettP; k++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    jatekosNevek[k].RandomKartyaGen();
+                }
+            }
 
         }
+
         
         string[] pakli = new string[]
         {

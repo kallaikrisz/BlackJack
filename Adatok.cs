@@ -12,7 +12,14 @@ public class Adatok
     public int Tet { get; set; }
     public int Egyenleg { get; set; }
     public int pont { get; set; }
+    public List<int> Lapok { get; set; } = new List<int>();
+
+    public void RandomKartyaGen()
+    {
+        Lapok.Add(Random.Shared.Next(1, 53));
+    }
 }
+
 
 public class txtbe
 {
