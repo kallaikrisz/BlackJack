@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlackJack"
         mc:Ignorable="d"
-        Title="itt én vagyok a főnök öcskös" Height="756" Width="1344"
+        Title="Játék" Height="756" Width="1344"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
     <Grid>
