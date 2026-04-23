@@ -34,7 +34,6 @@ namespace BlackJack
             InitializeComponent();
 
             var jatekosNevek = ((App)Application.Current).jatekosAdatok;
-
             // Nevek feltöltése
             for (int i = 0; i < jatekosNevek.Count; i++)
             {
@@ -79,7 +78,6 @@ namespace BlackJack
                     AtvettP++;
                 }
             }
-
             for (int k = 0; k < AtvettP; k++)
             {
                 for (int j = 0; j < 2; j++)
@@ -88,7 +86,6 @@ namespace BlackJack
                 }
             }
         }
-
 
     }
 }
